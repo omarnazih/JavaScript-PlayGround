@@ -1,0 +1,19 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(44, 106, 177);
+  color: aliceblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  padding: 1.5rem;
+  margin: 0;
+}
