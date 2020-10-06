@@ -20,7 +20,7 @@ function addTodo() {
   const newText = document.createElement('li');
 
   if (todoInput.value == "") {
-    todoInput.value = "Please enter some text";//Hack XD
+    alert("please enter a task");
   } else {
     newText.innerText = todoInput.value;
     newTodo.appendChild(newText);

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 /* General Declerations */
 :root {
   --bg-color: rgb(15, 15, 15);
@@ -18,7 +19,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--font-color);
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: var(--med-font-size);
 }
 
@@ -36,7 +37,8 @@ a {
 
 header {
   background-color: var(--sec-font-color);
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   padding: 1.5rem 0;
 }
 
