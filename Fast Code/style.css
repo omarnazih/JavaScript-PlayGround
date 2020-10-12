@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+
 *{
   padding:0;
   margin: 0;
@@ -7,7 +10,8 @@
 body{
   background-color: rgb(44, 106, 177);
   color: aliceblue;
-
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

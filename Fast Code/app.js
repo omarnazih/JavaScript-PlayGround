@@ -1,11 +1,40 @@
-let w;
-w = window.prompt("Enter The number of iterations: ");
+// function plainDrome(s){
+//   const tempString1=[];
+//   const tempString2=[];
 
-//log test
-console.log(w)
+//   for(let c in s){
+//     tempString1.unshift(s[c]);
+//     tempString2.push(s[c]);
+//   }  
+//   // console.log(tempString1.join());
+//   // console.log(tempString2.join()); 
+//   if(tempString1.join() == tempString2.join()){
+//     console.log("plaindrome");
+//   }else{
+//     console.log("Not Plaindrome");
+//   }
 
-// Take the number of iterations
-// Take the input strings
+// }
+// // let stringInput = "level";
 
-// First, each uppercase or lowercase letter must be shifted -- three -- positions to the -- right --,
-// According to ASCII table: letter 'a' should become letter 'd', letter 'y' must become the character '|' and so on. 
+
+
+
+// function sumOfDigits(num){
+
+//   const tempNumber =num.toString();
+//   var tempNum;
+
+//   for(let n in tempNumber){
+//     tempNum += parseInt(tempNumber[n]);
+//   }
+//   // tempNum = num % 10;
+
+//   console.log(tempNum);
+// }
+
+// console.log(sumOfDigits(1524.5));
+
+
+
+
